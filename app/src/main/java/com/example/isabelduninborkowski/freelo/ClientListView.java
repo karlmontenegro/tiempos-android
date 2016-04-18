@@ -1,14 +1,17 @@
 package com.example.isabelduninborkowski.freelo;
 
 import android.app.Fragment;
+import android.app.FragmentManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.isabelduninborkowski.freelo.beans.Client;
 
@@ -21,6 +24,8 @@ import java.util.List;
 
 public class ClientListView extends Fragment {
     View myView;
+    ImageButton addClientBtn;
+
     private List<Client> clientList =  new ArrayList<Client>();
 
     private void populateList() {
@@ -45,6 +50,17 @@ public class ClientListView extends Fragment {
 
         ListView list = (ListView) myView.findViewById(R.id.clientList);
         list.setAdapter(adapter);
+
+        this.addClientBtn = (ImageButton) myView.findViewById(R.id.addClientBtn);
+
+        this.addClientBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //Toast.makeText(ClientListView.this.getActivity(), "Client Added", Toast.LENGTH_SHORT).show();
+
+            }
+        });
 
         return myView;
     }
@@ -77,4 +93,5 @@ public class ClientListView extends Fragment {
             return itemView;
         }
     }
+
 }
