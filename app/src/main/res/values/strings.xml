@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Freelo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Sidebar Items-->
+
+    <string name="sidebar_item_1">Home</string>
+    <string name="sidebar_item_2">Clientes</string>
+    <string name="sidebar_item_3">Contratos</string>
+    <string name="sidebar_item_4">Citas</string>
+    <string name="sidebar_item_5">Confirmar Horas Laboradas</string>
+    <string name="sidebar_item_6">Generar Recibos</string>
+    <string name="sidebar_item_7">Cobros</string>
+
+    <!--Clientes-->
+    <string name="client_info">Datos del Cliente</string>
+    <string name="client_contacts">Contactos</string>
+    <string name="client_addresses">Direcciones</string>
+    <string name="et_name">Nombre del Cliente</string>
+    <string name="et_razsoc">Razón Social</string>
+    <string name="et_ruc">R.U.C.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

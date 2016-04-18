@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/ic_menu_client"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/ic_menu_contract"
+            android:title="Contratos" />
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@drawable/ic_menu_calendar"
+            android:title="Citas" />
+        <item
+            android:id="@+id/nav_fifth_layout"
+            android:icon="@drawable/ic_menu_hours"
+            android:title="Confirmar Horas Laboradas" />
+        <item
+            android:id="@+id/nav_sixth_layout"
+            android:icon="@drawable/ic_menu_invoice"
+            android:title="Generar Recibos" />
+        <item
+            android:id="@+id/nav_seventh_layout"
+            android:icon="@drawable/ic_menu_cash"
+            android:title="Cobros" />
+
+    </group>
+</menu>

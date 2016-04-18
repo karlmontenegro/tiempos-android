@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="6dip"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_menu_client"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/razSoc"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Razon Social Name"
+        android:textSize="12sp"
+        android:layout_below="@+id/clientName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/clientName"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:id="@+id/clientName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:text="Client Name"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/icon"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUC Number"
+        android:textSize="12sp"
+        android:id="@+id/ruc"
+        android:layout_below="@+id/razSoc"
+        android:layout_alignStart="@+id/razSoc"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp" />
+</RelativeLayout>
